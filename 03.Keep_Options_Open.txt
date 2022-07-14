@@ -1,0 +1,8 @@
+    Mantenha opções abertas. Não perder tempo com detalhes.
+    Objetivo principal da arquitetura é dar suporte ao ciclo de vida do sistema.
+
+    Regras vs Detalhes:
+        Regras de negócio trazem o real valor para o software.
+        Detalhes ajuidam a suportar as regras.
+        Detalhes não devem impactar nas regras de negócios, como framework, banco de dados, consumo de apis.
+        

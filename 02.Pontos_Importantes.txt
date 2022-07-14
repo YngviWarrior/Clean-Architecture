@@ -1,0 +1,5 @@
+Pontos importantes sobre arquitetura.
+    Ajuda a formatar nosso software.
+    Dividir componentes.
+    Comunicação entre componentes.
+    Uma boa arquitetura vai facilitar o processo de desenvolvimento, deploy, operação e manutenção.
