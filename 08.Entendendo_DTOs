@@ -1,0 +1,20 @@
+DTO (Data Transfer Object)
+
+    Ajuda a trafegar os dados entre os limites arquiteturais.
+    Objeto anêmico, sem comportamentos. (Só possui dados, sem regras, não necessita ser classe ou struct).
+    Contém dados (Input ou Output).
+    
+    Não possui regras de negócio.
+    Não possui comportamentos.
+    Não faz nada. Só carrega dados.
+
+EX: Para criar uma categoria no sistema:
+    O Controller cria um DTO para enviar ao UseCase.
+
+EX: Para editar uma categoria no sistema:
+    Cada UseCase possui seu DTO de input e de Output. (Para não haver duplicação errada).
+
+
+* API -> Controller -> UseCase -> Entity
+O Controler cria um DTO com os dados recebidos e envia ao UseCase.
+UseCase executa seu fluxo, pega o resultado e cria um DTO para Output e retorna para o Controller.

@@ -1,0 +1,13 @@
+Representa uma Intenção. Ao bater o olho no código e se entende a ação do software.
+Trazendo clareza no comportamento do software.
+Detalhes não devem impactar nas regras de negócios. (frameworks, bancos, apis).
+
+Use Cases x SRP (Single Responsability Principle)
+
+    Na tendência de reaproveitar código ou useCase para 2 intenções parecidas. Oque não é permitido.
+    Cada código Use Case é independente.
+
+Duplicação real x Duplicação Acidental
+
+    Um trecho de código q se repete em todo o software. 
+    Se a duplicação pode se torar algo diferente em algum caso, vale a pena replicar.

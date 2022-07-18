@@ -6,4 +6,4 @@ Grosseiramente variação da arquitetura hexagonal com mais alguns detalhes.
 
 Baixo acoplamento entre camadas.
 
-Orientada a casos de uso. (Caso de uso é uma intenção de realizar uma ação, gerando uma transformação de informação).
+Orientada a casos de uso. (Caso de uso é uma intenção de realizar uma ação, gerando uma transformação da informação).

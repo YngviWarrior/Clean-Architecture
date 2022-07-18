@@ -1,0 +1,9 @@
+Tudo que não impacta diretamente nas regras de negócio deve estar em um limite arquitetural diferente.
+Ex: Front-end ou Banco de Dados que mudarão as regras da aplicação.
+
+IOT, inversão de controle.
+
+Business Rules -----> DB Interface <----- DB Access
+
+O db conheçe as regras, mas as regras não conhecem o db. (Isolando as regras de negócios)
+As regras conheçe apenas a interface. Desacoplando as regras de tecnológias.

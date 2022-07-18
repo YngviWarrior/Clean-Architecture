@@ -1,0 +1,6 @@
+Simplifique o racíocinio pensando em Input e Output.
+Um Input retorna um Output.
+
+Ex: Criar pedido (Input).
+    Retorno do pedido (Output).
+
