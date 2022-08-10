@@ -1,0 +1,5 @@
+Objetos de transformação.
+Adequa o DTO de output (que sai do useCase) no formato correto para entregar o resultado.
+
+Ex: UseCase retorna um DTO que precisa ser transformado em JSON ou em XML,
+esse DTO será introduzido em um Presenter, onde retornará ao controller o formato desejado para resposta.

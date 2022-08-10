@@ -1,0 +1,7 @@
+Entities da Clean Architecture (conceito de camada) != Entities do DDD (representação de algo único na aplicação)
+
+Clean Architecture define entity como camada de regras de negócio.
+Elas se aplicam em qualquer situação.
+Não há definição explicita de como criar as entities.
+Normalmente utilizamos táticas do DDD.
+Entities = Agregados + Domain Services.
